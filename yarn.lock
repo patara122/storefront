@@ -12151,10 +12151,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:7.10.0":
-  version: 7.10.0
-  resolution: "undici@npm:7.10.0"
-  checksum: 10/41d8ccd5b5e35bcd9035a5a640d9020f9ea1a2ef3dffb3e29518ff16ca01957833f1befe141b3a58db09015174681614732f9d322b0bc7f78855f51020bd744e
+"undici@npm:5.20.0":
+  version: 5.20.0
+  resolution: "undici@npm:5.20.0"
+  dependencies:
+    busboy: "npm:^1.6.0"
+  checksum: 10/080b9d4f8d3209a5732ade1f0fcb4d330b386d5edbe0a17ef6336e43abc1c9430f820e0bdea986d8c69e2c07f4c0b63351a1a018898705e34f0e0bbd554ee62f
   languageName: node
   linkType: hard
 
