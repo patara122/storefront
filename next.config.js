@@ -7,7 +7,7 @@ checkEnvVariables()
  */
 const S3_HOSTNAME = process.env.MEDUSA_CLOUD_S3_HOSTNAME
 const S3_PATHNAME = process.env.MEDUSA_CLOUD_S3_PATHNAME
-
+const { withPayload } = require("@payloadcms/next/withPayload")
 /**
  * @type {import('next').NextConfig}
  */
@@ -55,4 +55,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+module.exports = withPayload(nextConfig)
